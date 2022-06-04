@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent jenkins-compile
 
     stages {
         stage('CompileJob') {
